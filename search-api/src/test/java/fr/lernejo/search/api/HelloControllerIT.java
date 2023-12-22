@@ -12,7 +12,7 @@ import static org.hamcrest.CoreMatchers.containsStringIgnoringCase;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @AutoConfigureMockMvc
-class HelloControllerIT {
+class elloControllerIT {
 
     @Test
     void say_hello_api_respond_with_a_message_containing_hello(@Autowired MockMvc mockMvc) throws Exception {
